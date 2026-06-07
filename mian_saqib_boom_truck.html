@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mian Saqib Hussain Boom Truck Services - Professional Boom Truck Rental & Lifting Services Across Saudi Arabia. Serving Dammam, Jubail, Eastern Province.">
+<meta name="keywords" content="Boom Truck Rental Saudi Arabia, Boom Truck Dammam, Boom Truck Jubail, Boom Truck Eastern Province, Lifting Services Saudi Arabia, Heavy Equipment Transport, White Hino Boom Truck, Crane Services">
+<title>Mian Saqib Hussain Boom Truck Services | خدمات البوم ترك</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&family=Noto+Kufi+Arabic:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0a1628;
+    --navy-mid: #0d1f3c;
+    --blue: #1565c0;
+    --blue-bright: #1976d2;
+    --blue-light: #42a5f5;
+    --orange: #f57c00;
+    --orange-bright: #ff9800;
+    --orange-light: #ffb74d;
+    --white: #ffffff;
+    --gray-light: #f5f7fa;
+    --gray-mid: #e8ecf0;
+    --gray-text: #546e7a;
+    --dark-text: #0d1f3c;
+    --glass: rgba(255,255,255,0.06);
+    --glass-border: rgba(255,255,255,0.12);
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--navy);
+    color: var(--white);
+    overflow-x: hidden;
+  }
+
+  .arabic {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    text-align: right;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(10,22,40,0.92);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--glass-border);
+    padding: 0 2rem;
+    height: 70px;
+    display: flex; align-items: center; justify-content: space-between;
+    transition: all 0.3s ease;
+  }
+
+  .nav-logo {
+    display: flex; align-items: center; gap: 12px;
+  }
+
+  .nav-logo-icon {
+    width: 44px; height: 44px;
+    background: linear-gradient(135deg, var(--orange), var(--orange-bright));
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+  }
+
+  .nav-logo-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.2;
+  }
+
+  .nav-logo-text span {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: var(--orange-bright);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .nav-cta {
+    display: flex; gap: 10px; align-items: center;
+  }
+
+  .btn-call {
+    display: flex; align-items: center; gap: 7px;
+    background: var(--orange);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+  }
+
+  .btn-call:hover { background: var(--orange-bright); transform: translateY(-1px); }
+
+  .btn-wa {
+    display: flex; align-items: center; gap: 7px;
+    background: #25d366;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+  }
+
+  .btn-wa:hover { background: #22c55e; transform: translateY(-1px); }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    position: relative;
+    display: flex; align-items: center;
+    overflow: hidden;
+    padding-top: 70px;
+  }
+
+  .hero-bg {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(135deg, rgba(10,22,40,0.97) 0%, rgba(13,31,60,0.9) 40%, rgba(21,101,192,0.25) 100%);
+    z-index: 1;
+  }
+
+  .hero-grid-pattern {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(21,101,192,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(21,101,192,0.06) 1px, transparent 1px);
+    background-size: 60px 60px;
+    z-index: 0;
+  }
+
+  .hero-truck-bg {
+    position: absolute; right: -80px; bottom: 0;
+    width: 65%;
+    height: 100%;
+    z-index: 0;
+    display: flex; align-items: flex-end;
+  }
+
+  .hero-truck-svg {
+    width: 100%;
+    filter: drop-shadow(-40px 0 80px rgba(21,101,192,0.3));
+    opacity: 0.15;
+  }
+
+  .hero-content {
+    position: relative; z-index: 2;
+    padding: 4rem 5vw 4rem 6vw;
+    max-width: 760px;
+    animation: fadeSlideUp 1s ease both;
+  }
+
+  @keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(245,124,0,0.15);
+    border: 1px solid rgba(245,124,0,0.4);
+    color: var(--orange-bright);
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    animation: fadeSlideUp 1s 0.1s ease both;
+  }
+
+  .hero-badge::before {
+    content: '';
+    width: 8px; height: 8px;
+    background: var(--orange-bright);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+  }
+
+  .hero-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+    animation: fadeSlideUp 1s 0.2s ease both;
+  }
+
+  .hero-title .highlight {
+    color: var(--orange-bright);
+    display: block;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: rgba(255,255,255,0.75);
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+    animation: fadeSlideUp 1s 0.3s ease both;
+    max-width: 520px;
+  }
+
+  .hero-arabic {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    font-weight: 700;
+    color: rgba(255,183,77,0.9);
+    margin-bottom: 0.3rem;
+    animation: fadeSlideUp 1s 0.35s ease both;
+  }
+
+  .hero-arabic-sub {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: rgba(255,255,255,0.55);
+    margin-bottom: 2.2rem;
+    animation: fadeSlideUp 1s 0.4s ease both;
+  }
+
+  .hero-stats {
+    display: flex; gap: 2.5rem;
+    margin-bottom: 2.5rem;
+    animation: fadeSlideUp 1s 0.45s ease both;
+    flex-wrap: wrap;
+  }
+
+  .hero-stat { text-align: center; }
+
+  .hero-stat-num {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--orange-bright);
+    line-height: 1;
+  }
+
+  .hero-stat-label {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.55);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .hero-ctas {
+    display: flex; gap: 12px; flex-wrap: wrap;
+    animation: fadeSlideUp 1s 0.5s ease both;
+  }
+
+  .btn-primary {
+    display: flex; align-items: center; gap: 8px;
+    background: linear-gradient(135deg, var(--orange), var(--orange-bright));
+    color: white;
+    padding: 15px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    transition: all 0.25s ease;
+    box-shadow: 0 8px 30px rgba(245,124,0,0.35);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(245,124,0,0.5);
+  }
+
+  .btn-secondary {
+    display: flex; align-items: center; gap: 8px;
+    background: rgba(37,211,102,0.12);
+    border: 1.5px solid #25d366;
+    color: #4ade80;
+    padding: 14px 26px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    transition: all 0.25s ease;
+  }
+
+  .btn-secondary:hover {
+    background: rgba(37,211,102,0.22);
+    transform: translateY(-2px);
+  }
+
+  .btn-outline {
+    display: flex; align-items: center; gap: 8px;
+    background: var(--glass);
+    border: 1.5px solid var(--glass-border);
+    color: rgba(255,255,255,0.85);
+    padding: 14px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    transition: all 0.25s ease;
+  }
+
+  .btn-outline:hover {
+    background: rgba(255,255,255,0.12);
+    border-color: rgba(255,255,255,0.3);
+    transform: translateY(-2px);
+  }
+
+  .hero-truck-visual {
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 55%;
+    height: 90%;
+    z-index: 1;
+    display: flex; align-items: flex-end; justify-content: center;
+    animation: fadeSlideUp 1.2s 0.3s ease both;
+    pointer-events: none;
+  }
+
+  /* ── SECTION COMMON ── */
+  section { padding: 6rem 5vw; }
+
+  .section-label {
+    display: inline-flex; align-items: center; gap: 8px;
+    color: var(--orange-bright);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .section-label::before {
+    content: '';
+    width: 24px; height: 2px;
+    background: var(--orange-bright);
+    border-radius: 2px;
+  }
+
+  .section-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 900;
+    line-height: 1.1;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+  }
+
+  .section-title-ar {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    font-weight: 700;
+    color: rgba(255,183,77,0.8);
+    margin-bottom: 1.5rem;
+  }
+
+  /* ── ABOUT ── */
+  #about {
+    background: var(--navy-mid);
+    position: relative;
+    overflow: hidden;
+  }
+
+  #about::before {
+    content: '';
+    position: absolute; top: 0; right: 0;
+    width: 40%;  height: 100%;
+    background: linear-gradient(135deg, transparent, rgba(21,101,192,0.08));
+    pointer-events: none;
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .about-text p {
+    color: rgba(255,255,255,0.7);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    margin-bottom: 1.2rem;
+  }
+
+  .about-arabic-block {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    text-align: right;
+    color: rgba(255,255,255,0.65);
+    font-size: 1rem;
+    line-height: 1.9;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--glass-border);
+    border-right: 3px solid var(--orange);
+    padding: 1.2rem 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+  }
+
+  .about-features {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+  }
+
+  .about-feature {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 1.3rem;
+    transition: all 0.25s ease;
+  }
+
+  .about-feature:hover {
+    background: rgba(255,255,255,0.09);
+    border-color: rgba(245,124,0,0.4);
+    transform: translateY(-3px);
+  }
+
+  .about-feature-icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
+    display: block;
+  }
+
+  .about-feature h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 0.2rem;
+  }
+
+  .about-feature p {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.4;
+  }
+
+  .about-feature .ar {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: 0.75rem;
+    color: rgba(255,183,77,0.6);
+    margin-top: 2px;
+  }
+
+  /* ── SERVICES ── */
+  #services { background: var(--navy); }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 2.5rem auto 0;
+  }
+
+  .service-card {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: default;
+  }
+
+  .service-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--orange), var(--blue-light));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+  .service-card:hover {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(245,124,0,0.35);
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  }
+
+  .service-card:hover::before { transform: scaleX(1); }
+
+  .service-icon {
+    width: 56px; height: 56px;
+    background: linear-gradient(135deg, rgba(245,124,0,0.2), rgba(245,124,0,0.08));
+    border: 1px solid rgba(245,124,0,0.3);
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .service-card h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 0.3rem;
+  }
+
+  .service-card .ar-title {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: 0.9rem;
+    color: rgba(255,183,77,0.7);
+    margin-bottom: 0.8rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.6;
+  }
+
+  /* ── AREAS ── */
+  #areas { background: var(--navy-mid); }
+
+  .areas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.2rem;
+    max-width: 1100px;
+    margin: 2.5rem auto 0;
+  }
+
+  .area-card {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    padding: 1.8rem 1.4rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .area-card:hover {
+    border-color: var(--blue-light);
+    background: rgba(21,101,192,0.12);
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(21,101,192,0.2);
+  }
+
+  .area-number {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: rgba(21,101,192,0.2);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .area-pin {
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+
+  .area-card h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 0.4rem;
+    line-height: 1.2;
+  }
+
+  .area-card .ar {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: 0.9rem;
+    color: rgba(255,183,77,0.75);
+    line-height: 1.4;
+  }
+
+  /* ── WHY CHOOSE US ── */
+  #why { background: var(--navy); }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 2.5rem auto 0;
+  }
+
+  .why-card {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    padding: 1.8rem;
+    display: flex; gap: 1rem; align-items: flex-start;
+    transition: all 0.25s ease;
+  }
+
+  .why-card:hover {
+    background: rgba(255,255,255,0.07);
+    border-color: rgba(66,165,245,0.4);
+    transform: translateY(-3px);
+  }
+
+  .why-icon {
+    width: 48px; height: 48px; flex-shrink: 0;
+    background: linear-gradient(135deg, rgba(21,101,192,0.25), rgba(21,101,192,0.08));
+    border: 1px solid rgba(66,165,245,0.3);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem;
+  }
+
+  .why-card h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 0.2rem;
+  }
+
+  .why-card .ar {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: 0.78rem;
+    color: rgba(255,183,77,0.65);
+    margin-bottom: 0.4rem;
+  }
+
+  .why-card p {
+    font-size: 0.83rem;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.5;
+  }
+
+  /* ── GALLERY ── */
+  #gallery { background: var(--navy-mid); }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 2.5rem auto 0;
+  }
+
+  .gallery-item {
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    background: rgba(13,31,60,0.8);
+    border: 1px solid var(--glass-border);
+    aspect-ratio: 4/3;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  .gallery-item:first-child {
+    grid-column: span 2;
+    aspect-ratio: 16/7;
+  }
+
+  .gallery-item:hover { transform: scale(1.02); border-color: rgba(245,124,0,0.4); }
+
+  .gallery-placeholder {
+    text-align: center;
+    color: rgba(255,255,255,0.35);
+    padding: 1.5rem;
+  }
+
+  .gallery-placeholder-icon { font-size: 3rem; display: block; margin-bottom: 0.5rem; }
+
+  .gallery-placeholder p {
+    font-size: 0.85rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .gallery-placeholder .ar {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: 0.8rem;
+    color: rgba(255,183,77,0.5);
+    margin-top: 4px;
+  }
+
+  /* ── CONTACT ── */
+  #contact {
+    background: linear-gradient(135deg, var(--navy) 0%, rgba(21,101,192,0.15) 50%, var(--navy) 100%);
+    position: relative; overflow: hidden;
+  }
+
+  #contact::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(21,101,192,0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(21,101,192,0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+
+  .contact-inner {
+    position: relative; z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: start;
+  }
+
+  .contact-info h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.1;
+    margin-bottom: 0.4rem;
+  }
+
+  .contact-info .ar-title {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgba(255,183,77,0.8);
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-phone-block {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-phone-label {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-phone-num {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--orange-bright);
+    letter-spacing: 1px;
+    margin-bottom: 1.2rem;
+    display: block;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .contact-phone-num:hover { color: var(--orange-light); }
+
+  .contact-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  .contact-form-side {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 2.2rem;
+  }
+
+  .contact-form-side h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 0.3rem;
+  }
+
+  .contact-form-side .ar {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    font-size: 0.9rem;
+    color: rgba(255,183,77,0.7);
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+
+  .form-group { margin-bottom: 1.1rem; }
+
+  .form-group label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.5px;
+    margin-bottom: 0.4rem;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 9px;
+    padding: 12px 14px;
+    color: var(--white);
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+    -webkit-appearance: none;
+  }
+
+  .form-group select option { background: #0d1f3c; color: white; }
+
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus {
+    border-color: var(--blue-light);
+    background: rgba(255,255,255,0.09);
+  }
+
+  .form-group input::placeholder,
+  .form-group textarea::placeholder { color: rgba(255,255,255,0.3); }
+
+  .form-group textarea { resize: vertical; min-height: 90px; }
+
+  .btn-submit {
+    width: 100%;
+    background: linear-gradient(135deg, var(--blue), var(--blue-bright));
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-top: 0.5rem;
+  }
+
+  .btn-submit:hover {
+    background: linear-gradient(135deg, var(--blue-bright), var(--blue-light));
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(21,101,192,0.4);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: rgba(5,12,24,0.98);
+    border-top: 1px solid var(--glass-border);
+    padding: 3rem 5vw 2rem;
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: var(--white);
+  }
+
+  .footer-tagline {
+    color: rgba(255,255,255,0.5);
+    font-size: 0.9rem;
+  }
+
+  .footer-ar {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    color: rgba(255,183,77,0.6);
+    font-size: 0.9rem;
+  }
+
+  .footer-divider {
+    width: 100%;
+    height: 1px;
+    background: var(--glass-border);
+    margin: 1rem 0;
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.3);
+  }
+
+  /* ── FLOATING WA ── */
+  .wa-float {
+    position: fixed;
+    bottom: 28px; right: 28px;
+    z-index: 999;
+    width: 58px; height: 58px;
+    background: #25d366;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.6rem;
+    text-decoration: none;
+    box-shadow: 0 4px 20px rgba(37,211,102,0.5);
+    transition: all 0.25s ease;
+    animation: bounceIn 1s 1.5s ease both;
+  }
+
+  @keyframes bounceIn {
+    from { opacity: 0; transform: scale(0) rotate(-45deg); }
+    70% { transform: scale(1.15) rotate(5deg); }
+    to { opacity: 1; transform: scale(1) rotate(0deg); }
+  }
+
+  .wa-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 30px rgba(37,211,102,0.7);
+  }
+
+  /* ── SCROLL ANIMATIONS ── */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ── DIVIDER ── */
+  .section-divider {
+    width: 60px; height: 3px;
+    background: linear-gradient(90deg, var(--orange), var(--blue-light));
+    border-radius: 3px;
+    margin: 0.8rem 0 2rem;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+    .contact-inner { grid-template-columns: 1fr; gap: 2rem; }
+    .gallery-grid { grid-template-columns: 1fr 1fr; }
+    .gallery-item:first-child { grid-column: span 2; }
+    .hero-truck-visual { display: none; }
+    .hero-content { max-width: 100%; padding: 3rem 5vw; }
+  }
+
+  @media (max-width: 600px) {
+    section { padding: 4rem 5vw; }
+    .hero-stats { gap: 1.5rem; }
+    .nav-cta .btn-wa { display: none; }
+    .gallery-grid { grid-template-columns: 1fr; }
+    .gallery-item:first-child { grid-column: span 1; }
+    .about-features { grid-template-columns: 1fr; }
+    .areas-grid { grid-template-columns: 1fr 1fr; }
+    .why-grid { grid-template-columns: 1fr; }
+    .services-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Truck SVG scene */
+  .truck-scene {
+    width: 100%; height: 100%;
+    display: flex; align-items: flex-end; justify-content: flex-end;
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <div class="nav-logo-icon">🏗️</div>
+    <div class="nav-logo-text">
+      Mian Saqib Hussain
+      <span>Boom Truck Services • Saudi Arabia</span>
+    </div>
+  </div>
+  <div class="nav-cta">
+    <a href="https://wa.me/966594032500" class="btn-wa" target="_blank" rel="noopener">
+      💬 WhatsApp
+    </a>
+    <a href="tel:+966594032500" class="btn-call">
+      📞 +966 594 032 500
+    </a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-pattern"></div>
+  <div class="hero-bg"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">🇸🇦 Eastern Province, Saudi Arabia</div>
+
+    <h1 class="hero-title">
+      Mian Saqib Hussain
+      <span class="highlight">Boom Truck Services</span>
+    </h1>
+
+    <p class="hero-subtitle">Professional Boom Truck Rental &amp; Lifting Services Across Saudi Arabia</p>
+
+    <div class="hero-arabic">خدمات ميان ثاقب حسين للبوم ترك</div>
+    <div class="hero-arabic-sub">خدمات تأجير البوم ترك والرفع الاحترافية في المملكة العربية السعودية</div>
+
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">24/7</div>
+        <div class="hero-stat-label">Availability</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">5+</div>
+        <div class="hero-stat-label">Areas Served</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">100%</div>
+        <div class="hero-stat-label">Safety Focused</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">KSA</div>
+        <div class="hero-stat-label">Based &amp; Licensed</div>
+      </div>
+    </div>
+
+    <div class="hero-ctas">
+      <a href="tel:+966594032500" class="btn-primary">📞 Call Now — اتصل الآن</a>
+      <a href="https://wa.me/966594032500" class="btn-secondary" target="_blank" rel="noopener">💬 WhatsApp Now</a>
+      <a href="#contact" class="btn-outline">📋 Request Quote</a>
+    </div>
+  </div>
+
+  <!-- TRUCK VISUAL (SVG) -->
+  <div class="hero-truck-visual" aria-hidden="true">
+    <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%; opacity:0.22; filter: drop-shadow(-20px 0 60px rgba(66,165,245,0.4));">
+      <!-- Ground -->
+      <rect x="0" y="370" width="700" height="50" fill="#1565c0" opacity="0.3" rx="0"/>
+      <!-- Chassis -->
+      <rect x="60" y="290" width="500" height="60" fill="#e0e0e0" rx="6"/>
+      <!-- Cab -->
+      <rect x="440" y="210" width="140" height="80" fill="#f5f5f5" rx="8"/>
+      <rect x="450" y="220" width="60" height="45" fill="#42a5f5" rx="4" opacity="0.8"/>
+      <rect x="520" y="225" width="50" height="35" fill="#29b6f6" rx="4" opacity="0.8"/>
+      <!-- Boom arm base -->
+      <rect x="80" y="265" width="80" height="40" fill="#bdbdbd" rx="4"/>
+      <!-- Boom arm extended -->
+      <line x1="120" y1="270" x2="420" y2="30" stroke="#9e9e9e" stroke-width="18" stroke-linecap="round"/>
+      <!-- Boom arm secondary -->
+      <line x1="140" y1="265" x2="440" y2="25" stroke="#bdbdbd" stroke-width="10" stroke-linecap="round"/>
+      <!-- Hook rope -->
+      <line x1="420" y1="30" x2="420" y2="110" stroke="#757575" stroke-width="4"/>
+      <!-- Hook -->
+      <path d="M405,110 Q420,130 435,110" stroke="#616161" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <!-- Wheels -->
+      <circle cx="160" cy="352" r="32" fill="#424242"/>
+      <circle cx="160" cy="352" r="20" fill="#616161"/>
+      <circle cx="160" cy="352" r="8" fill="#9e9e9e"/>
+      <circle cx="260" cy="352" r="32" fill="#424242"/>
+      <circle cx="260" cy="352" r="20" fill="#616161"/>
+      <circle cx="260" cy="352" r="8" fill="#9e9e9e"/>
+      <circle cx="420" cy="352" r="32" fill="#424242"/>
+      <circle cx="420" cy="352" r="20" fill="#616161"/>
+      <circle cx="420" cy="352" r="8" fill="#9e9e9e"/>
+      <circle cx="520" cy="352" r="32" fill="#424242"/>
+      <circle cx="520" cy="352" r="20" fill="#616161"/>
+      <circle cx="520" cy="352" r="8" fill="#9e9e9e"/>
+      <!-- Headlight -->
+      <rect x="575" y="270" width="18" height="12" fill="#fff176" rx="3" opacity="0.9"/>
+      <!-- Stabilizer legs -->
+      <rect x="95" y="330" width="14" height="40" fill="#9e9e9e" rx="3"/>
+      <rect x="88" y="368" width="28" height="10" fill="#757575" rx="2"/>
+      <rect x="370" y="330" width="14" height="40" fill="#9e9e9e" rx="3"/>
+      <rect x="363" y="368" width="28" height="10" fill="#757575" rx="2"/>
+      <!-- Orange accent stripe -->
+      <rect x="60" y="300" width="500" height="10" fill="#f57c00" opacity="0.7" rx="0"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <div class="section-label">About Us • من نحن</div>
+      <h2 class="section-title">Owner-Operated.<br>Professionally Delivered.</h2>
+      <div class="section-title-ar">خبرة حقيقية، خدمة شخصية</div>
+      <div class="section-divider"></div>
+
+      <p>Mian Saqib Hussain is an experienced, independent boom truck operator providing reliable heavy-lifting and material transport services throughout Saudi Arabia's Eastern Province.</p>
+
+      <p>When you contact us, you speak directly with the operator — no middlemen, no delays. Our White Hino Boom Truck is maintained to the highest safety standards, ensuring every lift is executed with precision and care.</p>
+
+      <div class="about-arabic-block">
+        ميان ثاقب حسين مشغّل متمرس ومستقل لشاحنة البوم، يقدّم خدمات رفع موثوقة وفعّالة في المنطقة الشرقية بالمملكة العربية السعودية. عند الاتصال بنا، تتحدث مباشرة مع المشغّل — لا وسطاء، لا تأخير. نلتزم بأعلى معايير السلامة في كل عملية رفع.
+      </div>
+    </div>
+
+    <div class="about-features reveal">
+      <div class="about-feature">
+        <span class="about-feature-icon">🎯</span>
+        <h4>Direct Communication</h4>
+        <div class="ar">تواصل مباشر</div>
+        <p>Call the owner directly — fast decisions, no waiting.</p>
+      </div>
+      <div class="about-feature">
+        <span class="about-feature-icon">🦺</span>
+        <h4>Safety First</h4>
+        <div class="ar">السلامة أولاً</div>
+        <p>All operations follow KSA safety standards.</p>
+      </div>
+      <div class="about-feature">
+        <span class="about-feature-icon">⚡</span>
+        <h4>Fast Response</h4>
+        <div class="ar">استجابة سريعة</div>
+        <p>Quick mobilization for urgent lifting needs.</p>
+      </div>
+      <div class="about-feature">
+        <span class="about-feature-icon">💰</span>
+        <h4>Competitive Rates</h4>
+        <div class="ar">أسعار تنافسية</div>
+        <p>Fair pricing with no hidden charges.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div style="max-width:1200px; margin:0 auto;">
+    <div class="reveal">
+      <div class="section-label">Our Services • خدماتنا</div>
+      <h2 class="section-title">What We Provide</h2>
+      <div class="section-title-ar">ما نقدمه لك</div>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">🚚</div>
+        <h3>Boom Truck Rental</h3>
+        <div class="ar-title">تأجير شاحنة البوم</div>
+        <p>Flexible daily and project-based boom truck rental with an experienced operator included.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">⚙️</div>
+        <h3>Heavy Equipment Lifting</h3>
+        <div class="ar-title">رفع المعدات الثقيلة</div>
+        <p>Safe and precise lifting of heavy machinery, steel structures, and industrial equipment.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🏗️</div>
+        <h3>Construction Site Support</h3>
+        <div class="ar-title">دعم مواقع البناء</div>
+        <p>On-site boom truck operations for construction projects of all scales.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">📦</div>
+        <h3>Material Transportation</h3>
+        <div class="ar-title">نقل المواد</div>
+        <p>Efficient transport and placement of building materials, pipes, and structural components.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🔧</div>
+        <h3>Machinery Loading &amp; Unloading</h3>
+        <div class="ar-title">تحميل وتفريغ الآلات</div>
+        <p>Professional loading and unloading of heavy machinery at warehouses and worksites.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🏭</div>
+        <h3>Industrial Area Operations</h3>
+        <div class="ar-title">عمليات المناطق الصناعية</div>
+        <p>Specialized boom truck operations within industrial areas and restricted zones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREAS -->
+<section id="areas">
+  <div style="max-width:1100px; margin:0 auto;">
+    <div class="reveal" style="text-align:center;">
+      <div class="section-label" style="justify-content:center;">Service Areas • مناطق الخدمة</div>
+      <h2 class="section-title">Where We Operate</h2>
+      <div class="section-title-ar" style="text-align:center;">مناطق عملنا</div>
+      <div class="section-divider" style="margin:0.8rem auto 2rem;"></div>
+    </div>
+
+    <div class="areas-grid">
+      <div class="area-card reveal">
+        <span class="area-pin">📍</span>
+        <div class="area-number">01</div>
+        <h4>First Industrial Area</h4>
+        <div class="ar">المدينة الصناعية الأولى</div>
+      </div>
+      <div class="area-card reveal">
+        <span class="area-pin">📍</span>
+        <div class="area-number">02</div>
+        <h4>Second Industrial Area</h4>
+        <div class="ar">المدينة الصناعية الثانية</div>
+      </div>
+      <div class="area-card reveal">
+        <span class="area-pin">📍</span>
+        <div class="area-number">03</div>
+        <h4>Dammam</h4>
+        <div class="ar">الدمام</div>
+      </div>
+      <div class="area-card reveal">
+        <span class="area-pin">📍</span>
+        <div class="area-number">04</div>
+        <h4>Dallah Sanaiya</h4>
+        <div class="ar">دلة الصناعية</div>
+      </div>
+      <div class="area-card reveal">
+        <span class="area-pin">📍</span>
+        <div class="area-number">05</div>
+        <h4>Jubail Industrial City</h4>
+        <div class="ar">الجبيل الصناعية</div>
+      </div>
+    </div>
+
+    <div class="reveal" style="text-align:center; margin-top:2rem;">
+      <p style="color:rgba(255,255,255,0.5); font-size:0.9rem;">
+        Full Eastern Province coverage available upon request.
+        <span style="font-family:'Noto Kufi Arabic',sans-serif; direction:rtl; display:block; color:rgba(255,183,77,0.5); margin-top:4px; font-size:0.85rem;">تغطية كاملة للمنطقة الشرقية متاحة عند الطلب</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why">
+  <div style="max-width:1200px; margin:0 auto;">
+    <div class="reveal" style="text-align:center;">
+      <div class="section-label" style="justify-content:center;">Why Choose Us • لماذا نحن</div>
+      <h2 class="section-title">The Mian Saqib Hussain Advantage</h2>
+      <div class="section-title-ar" style="text-align:center;">ميزات خدمة ميان ثاقب حسين</div>
+      <div class="section-divider" style="margin:0.8rem auto 2.5rem;"></div>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">👤</div>
+        <div>
+          <h4>Direct Owner Service</h4>
+          <div class="ar">خدمة المالك مباشرة</div>
+          <p>You deal with the owner, not an agency.</p>
+        </div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">🏆</div>
+        <div>
+          <h4>Experienced Operator</h4>
+          <div class="ar">مشغّل ذو خبرة</div>
+          <p>Years of professional lifting experience in KSA.</p>
+        </div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">🚛</div>
+        <div>
+          <h4>White Hino Boom Truck</h4>
+          <div class="ar">شاحنة هينو بوم ترك بيضاء</div>
+          <p>Well-maintained, reliable, and properly equipped.</p>
+        </div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">💲</div>
+        <div>
+          <h4>Affordable Rates</h4>
+          <div class="ar">أسعار معقولة</div>
+          <p>Competitive pricing without compromising quality.</p>
+        </div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">⚡</div>
+        <div>
+          <h4>Fast Response</h4>
+          <div class="ar">استجابة سريعة</div>
+          <p>Quick mobilization for urgent project needs.</p>
+        </div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">🦺</div>
+        <div>
+          <h4>Safety Focused</h4>
+          <div class="ar">التركيز على السلامة</div>
+          <p>Every job meets KSA safety regulations.</p>
+        </div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">🕐</div>
+        <div>
+          <h4>24/7 Availability</h4>
+          <div class="ar">متاح على مدار الساعة</div>
+          <p>Ready when you need us, any time of day.</p>
+        </div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">🗺️</div>
+        <div>
+          <h4>Eastern Province Coverage</h4>
+          <div class="ar">تغطية المنطقة الشرقية</div>
+          <p>Dammam, Jubail, Industrial Areas &amp; beyond.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div style="max-width:1100px; margin:0 auto;">
+    <div class="reveal" style="text-align:center;">
+      <div class="section-label" style="justify-content:center;">Gallery • معرض الصور</div>
+      <h2 class="section-title">Our Work in Action</h2>
+      <div class="section-title-ar" style="text-align:center;">أعمالنا في الميدان</div>
+      <div class="section-divider" style="margin:0.8rem auto 2.5rem;"></div>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder">
+          <span class="gallery-placeholder-icon">🚛</span>
+          <p>White Hino Boom Truck</p>
+          <div class="ar">شاحنة هينو بوم ترك البيضاء</div>
+        </div>
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder">
+          <span class="gallery-placeholder-icon">🏗️</span>
+          <p>Construction Lifting</p>
+          <div class="ar">رفع البناء</div>
+        </div>
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder">
+          <span class="gallery-placeholder-icon">⚙️</span>
+          <p>Industrial Operations</p>
+          <div class="ar">العمليات الصناعية</div>
+        </div>
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder">
+          <span class="gallery-placeholder-icon">📦</span>
+          <p>Equipment Transport</p>
+          <div class="ar">نقل المعدات</div>
+        </div>
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder">
+          <span class="gallery-placeholder-icon">🔧</span>
+          <p>Machinery Unloading</p>
+          <div class="ar">تفريغ الآلات</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal" style="text-align:center; margin-top:1.5rem;">
+      <p style="color:rgba(255,255,255,0.4); font-size:0.85rem;">
+        📸 Add real job photos to replace these placeholders for maximum trust &amp; conversions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="contact-info reveal">
+      <div class="section-label">Contact • تواصل معنا</div>
+      <h2>Get In Touch<br>With Us Today</h2>
+      <div class="ar-title">تواصل معنا اليوم</div>
+      <div class="section-divider"></div>
+
+      <div class="contact-phone-block">
+        <div class="contact-phone-label">📞 DIRECT LINE — اتصل مباشرة</div>
+        <a href="tel:+966594032500" class="contact-phone-num">+966 594 032 500</a>
+        <div class="contact-btns">
+          <a href="tel:+966594032500" class="btn-primary" style="font-size:1rem; padding:12px 20px;">
+            📞 Call Now — اتصل الآن
+          </a>
+          <a href="https://wa.me/966594032500" class="btn-secondary" target="_blank" rel="noopener" style="font-size:1rem; padding:11px 18px;">
+            💬 WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div style="background:var(--glass); border:1px solid var(--glass-border); border-radius:12px; padding:1.4rem; margin-bottom:1rem;">
+        <div style="font-size:0.75rem; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,0.45); margin-bottom:0.8rem;">🕐 Hours • أوقات العمل</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.6rem;">
+          <div>
+            <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; color:var(--white); font-size:1rem;">Sat – Thu</div>
+            <div style="font-size:0.85rem; color:rgba(255,255,255,0.55);">7:00 AM – 10:00 PM</div>
+          </div>
+          <div style="text-align:right; font-family:'Noto Kufi Arabic',sans-serif; direction:rtl;">
+            <div style="font-weight:700; color:var(--white); font-size:0.95rem;">السبت – الخميس</div>
+            <div style="font-size:0.8rem; color:rgba(255,183,77,0.6);">٧:٠٠ ص – ١٠:٠٠ م</div>
+          </div>
+        </div>
+        <div style="margin-top:0.8rem; padding-top:0.8rem; border-top:1px solid var(--glass-border); font-size:0.85rem; color:rgba(255,183,77,0.75); font-family:'Barlow Condensed',sans-serif; font-weight:600;">
+          ⚡ Emergency lifting? Call 24/7 — رفع طارئ؟ اتصل على مدار الساعة
+        </div>
+      </div>
+
+      <!-- OpenStreetMap embed -->
+      <div style="border-radius:12px; overflow:hidden; border:1px solid var(--glass-border); height:200px; position:relative;">
+        <iframe
+          src="https://www.openstreetmap.org/export/embed.html?bbox=49.8,26.2,50.3,26.6&layer=mapnik&marker=26.4,50.1"
+          width="100%" height="200"
+          frameborder="0"
+          style="border:0; filter:invert(0.85) hue-rotate(180deg) saturate(0.7); display:block;"
+          title="Dammam Eastern Province Map"
+          loading="lazy"
+        ></iframe>
+        <div style="position:absolute; top:10px; left:10px; background:rgba(10,22,40,0.9); border:1px solid var(--glass-border); padding:6px 12px; border-radius:8px; font-size:0.75rem; font-family:'Barlow Condensed',sans-serif; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--orange-bright);">
+          📍 Eastern Province, KSA
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-side reveal">
+      <h3>Request a Quote</h3>
+      <span class="ar">طلب عرض سعر</span>
+
+      <form id="quoteForm" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label>Your Name — اسمك *</label>
+          <input type="text" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+          <label>Phone Number — رقم الهاتف *</label>
+          <input type="tel" placeholder="+966 5XX XXX XXXX" required>
+        </div>
+        <div class="form-group">
+          <label>Service Required — الخدمة المطلوبة</label>
+          <select>
+            <option value="">Select a service...</option>
+            <option>Boom Truck Rental — تأجير البوم ترك</option>
+            <option>Heavy Equipment Lifting — رفع المعدات الثقيلة</option>
+            <option>Construction Site Support — دعم مواقع البناء</option>
+            <option>Material Transportation — نقل المواد</option>
+            <option>Machinery Loading/Unloading — تحميل وتفريغ الآلات</option>
+            <option>Industrial Area Operations — عمليات المناطق الصناعية</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Location / Area — الموقع</label>
+          <select>
+            <option value="">Select area...</option>
+            <option>First Industrial Area — المدينة الصناعية الأولى</option>
+            <option>Second Industrial Area — المدينة الصناعية الثانية</option>
+            <option>Dammam — الدمام</option>
+            <option>Dallah Sanaiya — دلة الصناعية</option>
+            <option>Jubail Industrial City — الجبيل الصناعية</option>
+            <option>Other / أخرى</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Job Details — تفاصيل العمل</label>
+          <textarea placeholder="Describe what you need to lift, move, or transport...&#10;اوصف ما تحتاج إلى رفعه أو نقله..."></textarea>
+        </div>
+        <button type="submit" class="btn-submit">
+          📤 Send Request — إرسال الطلب
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div style="font-size:2rem;">🏗️</div>
+    <div class="footer-name">Mian Saqib Hussain Boom Truck Services</div>
+    <div class="footer-tagline">Professional Boom Truck Rental in Saudi Arabia — Eastern Province</div>
+    <div class="footer-ar">خدمات البوم ترك الاحترافية في المملكة العربية السعودية</div>
+    <div style="display:flex; gap:1rem; margin-top:0.5rem; flex-wrap:wrap; justify-content:center;">
+      <a href="tel:+966594032500" style="color:var(--orange-bright); text-decoration:none; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:1.05rem;">📞 +966 594 032 500</a>
+      <a href="https://wa.me/966594032500" target="_blank" rel="noopener" style="color:#4ade80; text-decoration:none; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:1.05rem;">💬 WhatsApp</a>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+      © 2026 Mian Saqib Hussain Boom Truck Services · Dammam, Eastern Province, Saudi Arabia<br>
+      Boom Truck Rental · Lifting Services · Heavy Equipment Transport · Industrial Area Operations
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/966594032500" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  💬
+</a>
+
+<script>
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, 80 * (Array.from(revealEls).indexOf(entry.target) % 4));
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  revealEls.forEach(el => observer.observe(el));
+
+  // Nav scroll effect
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 80) {
+      nav.style.background = 'rgba(5,12,24,0.98)';
+      nav.style.boxShadow = '0 4px 30px rgba(0,0,0,0.4)';
+    } else {
+      nav.style.background = 'rgba(10,22,40,0.92)';
+      nav.style.boxShadow = 'none';
+    }
+  });
+
+  // Quote form — redirect to WhatsApp with message
+  function handleSubmit(e) {
+    e.preventDefault();
+    const form = e.target;
+    const name = form.querySelector('input[type="text"]').value;
+    const phone = form.querySelector('input[type="tel"]').value;
+    const service = form.querySelectorAll('select')[0].value;
+    const area = form.querySelectorAll('select')[1].value;
+    const details = form.querySelector('textarea').value;
+
+    const msg = encodeURIComponent(
+      `السلام عليكم / Hello,\n\n` +
+      `*Quote Request — طلب عرض سعر*\n` +
+      `Name: ${name}\n` +
+      `Phone: ${phone}\n` +
+      `Service: ${service}\n` +
+      `Area: ${area}\n` +
+      `Details: ${details}`
+    );
+
+    window.open(`https://wa.me/966594032500?text=${msg}`, '_blank');
+  }
+
+  // Counter animation for hero stats
+  function animateCounters() {
+    // Simple pulse effect on numbers to draw attention
+    const nums = document.querySelectorAll('.hero-stat-num');
+    nums.forEach((el, i) => {
+      setTimeout(() => {
+        el.style.transform = 'scale(1.1)';
+        el.style.transition = 'transform 0.3s ease';
+        setTimeout(() => { el.style.transform = 'scale(1)'; }, 300);
+      }, 800 + i * 200);
+    });
+  }
+
+  window.addEventListener('load', animateCounters);
+</script>
+</body>
+</html>
